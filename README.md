@@ -2,7 +2,7 @@
 
 😀 Towards proficiency in Python and MATLAB !
 
-## Problems
+### Problems
 
 > For more details, you can check my [Notion](https://www.notion.so/yujiehe/AlgorithmsEveryday-bbc9912f4dab4d7a9189309ba27e65cd) page.
 
