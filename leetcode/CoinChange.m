@@ -34,20 +34,20 @@ res = coinChange(coins, amount);
 disp(res)
 
 function res = coinChange(coins, amount)
-mem = ones(amount+1,1)*inf;
+dp = ones(amount+1,1)*inf;
 % case0, index=0+1=1
-mem(1) = 0;
+dp(1) = 0;
 for step = 1:amount
     for j = 1:numel(coins)
         if coins(j) <= step
             % case_{step}, index={step}+1={step+1}
-            mem(step+1) = min(mem(step+1), mem(step+1-coins(j))+1);
+            dp(step+1) = min(dp(step+1), dp(step+1-coins(j))+1);
         end
     end
 end
-if mem(amount+1) > amount
+if dp(amount+1) > amount
     res = -1;
 else
-    res = mem(amount+1);
+    res = dp(amount+1);
 end
 end

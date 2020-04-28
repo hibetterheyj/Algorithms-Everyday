@@ -15,6 +15,7 @@ class Solution:
             step += 1
         return step
 
-s=Solution
-step = s.numberOfSteps(None,15)
-print(step)
+if __name__ == '__main__':
+    s=Solution()
+    step = s.numberOfSteps(15)
+    print(step)

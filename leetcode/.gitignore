@@ -1,0 +1,115 @@
+#######################################
+# Modified from https://github.com/github/gitignore/blob/master/Python.gitignore
+# Project name: 
+# Author name: Yujie He
+# Created time: 20200125
+# Last edited time: 20200125
+#######################################
+
+### Files and folders
+GenerateParenthesis.m
+
+### MATLAB ###
+## frequent use
+# Windows 默认自动保存文件
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix 默认自动保存文件
+# OSX / *nix default autosave extension
+*.m~
+
+# 编译二进制文件，如需保存，可以注�?
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+## maybe use
+# Simulink 代码生成文件
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Simulink 默认自动保存文件
+# Simulink autosave extension
+*.autosave
+
+# Simulink 缓存文件
+# Simulink cache files
+*.slxc
+
+
+## seldom use
+# 工具箱文�?
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# 帮助文档
+# Generated helpsearch folders
+helpsearch*/
+
+# Matlab 代码生成文件
+# Matlab code generation folders
+codegen/
+
+# Octave相关文件
+# Octave session info
+octave-workspace
+
+
+### Python ###
+# 笔记中间保存文件
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython相关配置文件
+# IPython
+profile_default/
+ipython_config.py
+
+# 环境文件
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder 项目文件
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# 中间编译文件
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 拓展文件
+# C extensions
+*.so
+
+# 发行�?/包相关文�?
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
